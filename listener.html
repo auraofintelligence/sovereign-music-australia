@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You love music · Sovereign Music Australia</title>
+<meta name="description" content="The listener's path: set your own dial for how music is made, vote in a chart run on listener votes, and put your money straight into the maker's hands.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Sora:wght@300;400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Path 02 · The listener</p>
+    <h1>You love music.</h1>
+    <p class="lede">That is the whole entry requirement. On this path you choose what reaches your ears, your vote carries the same weight as anyone else's, and your money can go straight to the person who made the song.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <p class="eyebrow">Your dial</p>
+    <h2>Set what you want to hear.</h2>
+    <p class="narrow" style="margin-left:0">Every song here wears a mark (a small record of how it was made, written by the maker: see <a href="hallmark.html">The Maker's Mark</a>). The mark says how a thing was made. Your dial decides what that means for you. Nobody sets it for you.</p>
+
+    <div class="card regal dial-wrap reveal" style="margin-top:1.4rem">
+      <div class="dial-row">
+        <label for="ld1">What reaches you</label>
+        <input type="range" class="dial" id="ld1" min="0" max="100" value="55" data-out="lo1">
+        <output id="lo1"></output>
+      </div>
+      <p class="soft" style="margin:0.6rem 0 0.2rem">The most tool-made music your setting lets through:</p>
+      <p class="band-readout" data-band-readout>Human-led</p>
+      <p class="soft" style="margin:0.8rem 0 0">Slide it to 100 and only handmade work reaches you. Slide it to 0 and everything does. Every stop in between is yours, and you can move it any day you like.</p>
+    </div>
+
+    <p class="soft">Some listeners will keep this at handmade-only for life. Some will open it right up. Both are using the system exactly as intended.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <p class="eyebrow">The vote</p>
+    <h2>A chart where your vote is the chart.</h2>
+    <p class="narrow" style="margin-left:0">The <a href="charts.html">People's Chart</a> runs on listener votes: one account, one vote, the rules published, the results public. <span class="when forming">taking shape</span></p>
+    <div class="grid two" style="margin-top:1.4rem">
+      <div class="card reveal">
+        <span class="n">The precedent</span>
+        <h4>Australia already does this at scale.</h4>
+        <p class="d">Every January, Australia runs the biggest listener music vote in the world: more than two million votes, enough to fill the MCG twenty times over. Australians vote on music when the vote is real. That habit already exists.</p>
+      </div>
+      <div class="card reveal">
+        <span class="n">The next step</span>
+        <h4>A monthly vote for new music.</h4>
+        <p class="d">Once a year celebrates the past. A monthly vote surfaces what is being made right now, with every entry wearing its mark so you can see how it was made before you rank it.</p>
+      </div>
+    </div>
+    <p class="soft" style="margin-top:1.2rem">Your dial applies here too: filter the chart the same way you filter your listening, and see the full field whenever you choose to open it up.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <p class="eyebrow">Straight to the maker</p>
+    <h2>Where your money lands.</h2>
+    <p class="narrow" style="margin-left:0">Buying an album pack (a bundle of the songs as files you download and keep) from an artist's own page puts nearly the whole price in their hands. Streaming works differently: on the biggest service, a song needs more than 1,000 plays in a year, roughly one person playing it three times a day for a whole year, before recording royalties (the money paid to whoever owns the recording) switch on at all.</p>
+
+    <div class="chart-demo" style="margin-top:1.4rem">
+      <div class="chart-bar reveal">
+        <span class="pos">A</span>
+        <div class="meta">
+          <div class="title">Album pack from the artist's own page</div>
+          <div class="sub">one purchase · nearly the whole price reaches the maker</div>
+        </div>
+        <span class="mono soft" style="font-size:0.7rem">nearly all</span>
+        <div class="fill" style="--v:0.94"></div>
+      </div>
+      <div class="chart-bar reveal">
+        <span class="pos">B</span>
+        <div class="meta">
+          <div class="title">Streaming, a song's first 999 plays in a year</div>
+          <div class="sub">on the biggest service · below the 1,000-play line</div>
+        </div>
+        <span class="mono soft" style="font-size:0.7rem">no recording royalties yet</span>
+        <div class="fill" style="--v:0.02"></div>
+      </div>
+    </div>
+
+    <p class="soft">Streaming still has its place: it is how most people find music. The point is simply that when you decide a song matters to you, there is a way to pay for it where the price lands with the person who made it.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <p class="eyebrow">Reading the mark</p>
+    <h2>What the four bands mean.</h2>
+    <p class="narrow" style="margin-left:0">The bands are descriptions, not ranks. Your dial, and only your dial, decides which of them reach you.</p>
+    <div class="grid four" style="margin-top:1.4rem">
+      <div class="card reveal"><h4>Handmade</h4><p class="d">Human hands nearly all the way through.</p></div>
+      <div class="card reveal"><h4>Human-led</h4><p class="d">A person drives; tools assist along the way.</p></div>
+      <div class="card reveal"><h4>AI-led</h4><p class="d">The tools generate; a person directs, selects and shapes.</p></div>
+      <div class="card reveal"><h4>Autonomous</h4><p class="d">Machine-made, human-published. Rare today, named plainly.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap narrow" style="margin-left:auto">
+    <div class="card regal reveal">
+      <p class="eyebrow" style="color:var(--aurum)">Two more doors</p>
+      <p>Plenty of listeners end up on the other side of the speaker. If a song has been forming in you, the maker's path shows how to mark it, release it and get paid for it. And if you have a room with a corner for a stage, the venue path is yours.</p>
+      <div class="cta-row">
+        <a class="cta" href="artist.html">I make music too</a>
+        <a class="cta ghost" href="venue.html">I run a stage</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="assets/site-nav.js" defer></script>
+<script src="assets/motion.js" defer></script>
+</body>
+</html>

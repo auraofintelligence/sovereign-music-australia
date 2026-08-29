@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Maker's Mark · Sovereign Music Australia</title>
+<meta name="description" content="A hallmark for music: how a work was made, recorded once by the maker, readable everywhere.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Sora:wght@300;400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Layer 01 · The keystone</p>
+    <h1>The Maker's Mark</h1>
+    <p class="lede">For centuries, every serious piece of gold and silver has carried a hallmark: small stamps that say who made it, where, and what it is made of. Not a grade. Not a judgement. A record of making. Music can carry one too.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <p class="eyebrow">What the mark records</p>
+    <h2>How the work was made, in the maker's own words.</h2>
+    <div class="grid three" style="margin-top:1.4rem">
+      <div class="card reveal"><span class="n">Field 01</span><h4>The shares</h4><p class="d">For each part of the work (words and melody, voice, instruments, production and mix, artwork): roughly how much came from human hands and how much from AI tools. Rough is fine. A fair estimate beats false precision.</p></div>
+      <div class="card reveal"><span class="n">Field 02</span><h4>The tools</h4><p class="d">Which tools were used and for what, recorded as plain data. Where a tool's training arrangements are known (licensed catalogues, settled deals), that goes in the record too, as a fact rather than a verdict.</p></div>
+      <div class="card reveal"><span class="n">Field 03</span><h4>The choices</h4><p class="d">The human decisions that shaped the result: the takes rejected, the lines rewritten, the direction given. This is where the craft lives, whatever the tools.</p></div>
+    </div>
+    <p class="soft" style="margin-top:1.2rem">One mark, made once, answers every form downstream: the AI questions streaming services now ask, the eligibility questions charts now ask, the credit line on a poster. Fill it in at release and forget about it.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <p class="eyebrow">Try the dial</p>
+    <h2>The mark is a dial, not a box.</h2>
+    <p class="narrow" style="margin-left:0">Move the sliders the way you actually work. Watch which band the work lands in. There are no right answers on this instrument, only accurate ones.</p>
+
+    <div class="card regal dial-wrap reveal" style="margin-top:1.4rem">
+      <div class="dial-row">
+        <label for="d1">Words &amp; melody</label>
+        <input type="range" class="dial" id="d1" min="0" max="100" value="80" data-out="o1">
+        <output id="o1"></output>
+      </div>
+      <div class="dial-row">
+        <label for="d2">Voice</label>
+        <input type="range" class="dial" id="d2" min="0" max="100" value="65" data-out="o2">
+        <output id="o2"></output>
+      </div>
+      <div class="dial-row">
+        <label for="d3">Instruments</label>
+        <input type="range" class="dial" id="d3" min="0" max="100" value="40" data-out="o3">
+        <output id="o3"></output>
+      </div>
+      <div class="dial-row">
+        <label for="d4">Production &amp; mix</label>
+        <input type="range" class="dial" id="d4" min="0" max="100" value="55" data-out="o4">
+        <output id="o4"></output>
+      </div>
+      <p class="soft" style="margin:0.6rem 0 0.2rem">Overall band for the first slider:</p>
+      <p class="band-readout" data-band-readout>Human-led</p>
+    </div>
+
+    <div class="grid four" style="margin-top:1.4rem">
+      <div class="card reveal"><h4>Handmade</h4><p class="d">Human hands nearly all the way through. The mark shows it, plainly, and it counts for plenty with plenty of people.</p></div>
+      <div class="card reveal"><h4>Human-led</h4><p class="d">A person drives; tools assist. Most music made this decade will live here, whether or not anyone says so out loud.</p></div>
+      <div class="card reveal"><h4>AI-led</h4><p class="d">The tools generate; a person directs, selects and shapes. Directing well is a craft of its own, and the mark gives it a name instead of a shadow.</p></div>
+      <div class="card reveal"><h4>Autonomous</h4><p class="d">Machine-made, human-published. Rare today, worth naming accurately rather than pretending it does not exist.</p></div>
+    </div>
+    <p class="soft">The bands are descriptions, not ranks. Listeners, venues, charts and stations each choose what any band means to them. That choice sits with them, where it belongs.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap narrow" style="margin-left:auto">
+    <p class="eyebrow">Where it fits</p>
+    <h2>Built to travel.</h2>
+    <p>The wider industry moved through 2025 and 2026. Streaming services added AI credit fields to the data standard releases ship in. Since 31 August 2026 the ARIA charts exclude recordings that are "not substantially human created", assessed from answers given with every submission. Different doors now ask the same question in different words.</p>
+    <p>The mark answers all of them from one record. It maps onto the streaming credit fields, the chart submission forms and the simple labels listeners see, so a maker writes the facts down once instead of five times in five formats.</p>
+    <p>If a mark is ever doubted, the disagreement will be handled with evidence, and the outcome published. <span class="when forming">taking shape</span></p>
+    <p>The first full catalogue is being marked now: 129 songs across 8 albums by an Australian artist releasing since 2024, live on the major streaming services. When it is done, every song's mark will be public, as the worked example the standard ships with. <span class="when forming">taking shape</span></p>
+    <div class="cta-row">
+      <a class="cta" href="charts.html">See the chart it feeds</a>
+      <a class="cta ghost" href="artist.html">Mark your own work</a>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="assets/site-nav.js" defer></script>
+<script src="assets/motion.js" defer></script>
+</body>
+</html>

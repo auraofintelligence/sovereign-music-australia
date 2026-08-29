@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Ecosystem · Sovereign Music Australia</title>
+<meta name="description" content="Eight layers, one machine: how the mark, the chart, the awards, the rights engine, the two tables, the stage and the pool feed each other.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Sora:wght@300;400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .map-scroll { overflow-x: auto; margin: 1.6rem 0 0.6rem; padding-bottom: 0.4rem; }
+  .eco-map { min-width: 840px; width: 100%; display: block; }
+  .eco-map .node { fill: var(--midnight); stroke: var(--line-soft); }
+  .eco-map .node.gold { fill: var(--veil); stroke: rgba(227, 185, 76, 0.5); }
+  .eco-map text { font-family: "IBM Plex Mono", monospace; font-size: 13px; fill: var(--plat); }
+  .eco-map .tag { font-size: 9px; letter-spacing: 0.14em; fill: var(--royal); }
+  .eco-map .tag.g { fill: var(--aurum); }
+  .eco-map .wire { fill: none; stroke: rgba(139, 108, 255, 0.55); stroke-width: 1.5; }
+  .eco-map .wire.gold { stroke: rgba(227, 185, 76, 0.65); }
+</style>
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">The map</p>
+    <h1>One machine,<br>eight layers.</h1>
+    <p class="lede">A single fix on its own tends to stall: a chart with nothing to read on each entry, a stage with no shared money behind it. So the eight layers arrive together, as one interlocking machine, because each one feeds the others. This page is the map of how.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <p class="eyebrow">The eight layers</p>
+    <h2>Every part, in one view.</h2>
+    <div class="grid four" style="margin-top:1.6rem">
+      <a class="card reveal" href="hallmark.html"><span class="n">Layer 01</span><h4>The Maker's Mark</h4><p class="d">How a work was made, recorded once by the maker, readable everywhere.</p></a>
+      <a class="card reveal" href="charts.html"><span class="n">Layer 02</span><h4>The People's Chart</h4><p class="d">A chart where listeners vote, with the counting method published.</p></a>
+      <a class="card reveal" href="awards.html"><span class="n">Layer 03</span><h4>The Auric Awards</h4><p class="d">Recognition for the craft as it happens now, in every band of making.</p></a>
+      <a class="card reveal" href="rights.html"><span class="n">Layer 04</span><h4>The Rights Engine</h4><p class="d">Plain-language answers about music and the law, with the exact rules quoted.</p></a>
+      <a class="card reveal" href="bargain.html"><span class="n">Layer 05</span><h4>The Bargaining Table</h4><p class="d">Small operators negotiating together with big platforms.</p></a>
+      <a class="card reveal" href="terms.html"><span class="n">Layer 06</span><h4>The Terms Table</h4><p class="d">The fine print of every distributor (the service that puts your song on the streaming platforms), side by side, with sources linked.</p></a>
+      <a class="card reveal" href="venue.html"><span class="n">Layer 07</span><h4>The Stage</h4><p class="d">Live formats, billing that says what each act is, and fair-fee ticketing.</p></a>
+      <a class="card reveal" href="pool.html"><span class="n">Layer 08</span><h4>The Pool</h4><p class="d">Shared channels and shared revenue, with the split rules published.</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <p class="eyebrow">The connections</p>
+    <h2>Each layer feeds the next.</h2>
+    <p class="narrow" style="margin-left:0">Follow the wires. Purple wires carry information; gold wires carry money back to the maker.</p>
+    <div class="map-scroll reveal">
+      <svg class="eco-map" viewBox="0 0 960 440" role="img" aria-label="Flow map. The Maker's Mark feeds the People's Chart and the Stage. The People's Chart feeds the Auric Awards. The Rights Engine backs the Bargaining Table and the Terms Table. The Stage and the Pool return money to the maker.">
+        <defs>
+          <marker id="ar" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="rgba(139,108,255,0.8)"/></marker>
+          <marker id="ag" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="rgba(227,185,76,0.85)"/></marker>
+        </defs>
+        <path class="wire" d="M210 97 C 290 97, 300 43, 372 43" marker-end="url(#ar)"/>
+        <path class="wire" d="M210 97 C 290 97, 300 131, 372 131" marker-end="url(#ar)"/>
+        <path class="wire" d="M580 43 C 660 43, 670 43, 742 43" marker-end="url(#ar)"/>
+        <path class="wire" d="M210 337 C 290 337, 300 307, 372 307" marker-end="url(#ar)"/>
+        <path class="wire" d="M210 337 C 290 337, 300 395, 372 395" marker-end="url(#ar)"/>
+        <path class="wire gold" d="M580 131 C 660 131, 670 175, 742 175" marker-end="url(#ag)"/>
+        <path class="wire gold" d="M580 219 C 660 219, 670 175, 742 175" marker-end="url(#ag)"/>
+        <g><rect class="node" x="10" y="70" width="200" height="54" rx="10"/><text class="tag" x="110" y="90" text-anchor="middle">LAYER 01</text><text x="110" y="109" text-anchor="middle">Maker's Mark</text></g>
+        <g><rect class="node" x="10" y="310" width="200" height="54" rx="10"/><text class="tag" x="110" y="330" text-anchor="middle">LAYER 04</text><text x="110" y="349" text-anchor="middle">Rights Engine</text></g>
+        <g><rect class="node" x="380" y="16" width="200" height="54" rx="10"/><text class="tag" x="480" y="36" text-anchor="middle">LAYER 02</text><text x="480" y="55" text-anchor="middle">People's Chart</text></g>
+        <g><rect class="node" x="380" y="104" width="200" height="54" rx="10"/><text class="tag" x="480" y="124" text-anchor="middle">LAYER 07</text><text x="480" y="143" text-anchor="middle">The Stage</text></g>
+        <g><rect class="node" x="380" y="192" width="200" height="54" rx="10"/><text class="tag" x="480" y="212" text-anchor="middle">LAYER 08</text><text x="480" y="231" text-anchor="middle">The Pool</text></g>
+        <g><rect class="node" x="380" y="280" width="200" height="54" rx="10"/><text class="tag" x="480" y="300" text-anchor="middle">LAYER 05</text><text x="480" y="319" text-anchor="middle">Bargaining Table</text></g>
+        <g><rect class="node" x="380" y="368" width="200" height="54" rx="10"/><text class="tag" x="480" y="388" text-anchor="middle">LAYER 06</text><text x="480" y="407" text-anchor="middle">Terms Table</text></g>
+        <g><rect class="node" x="750" y="16" width="200" height="54" rx="10"/><text class="tag" x="850" y="36" text-anchor="middle">LAYER 03</text><text x="850" y="55" text-anchor="middle">Auric Awards</text></g>
+        <g><rect class="node gold" x="750" y="148" width="200" height="54" rx="10"/><text class="tag g" x="850" y="168" text-anchor="middle">THE RETURN</text><text x="850" y="187" text-anchor="middle">The maker, paid</text></g>
+      </svg>
+    </div>
+    <ul class="soft" style="font-size:0.92rem">
+      <li>The <a href="hallmark.html">mark</a> feeds the <a href="charts.html">chart</a> and the billing on the <a href="venue.html">stage</a>: one record of making, read by both.</li>
+      <li>The chart feeds the <a href="awards.html">awards</a>: a year of member votes becomes the shortlist.</li>
+      <li>The <a href="rights.html">rights engine</a> backs the <a href="bargain.html">bargaining table</a> and the <a href="terms.html">terms table</a>: the same quoted rules sit under both.</li>
+      <li>The stage and the <a href="pool.html">pool</a> return money to makers: door takings and shared revenue, with the split rules published.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <p class="eyebrow">Governance</p>
+    <h2>Run by its members. Here is the mechanism.</h2>
+    <div class="grid two" style="margin-top:1.6rem">
+      <div class="card reveal"><span class="n">Rule 01</span><h4>One member, one vote</h4><p class="d">Every member holds the same single vote: artist, listener, venue or toolmaker. No weighting by revenue, follower count or catalogue size.</p></div>
+      <div class="card reveal"><span class="n">Rule 02</span><h4>Rules change by ballot</h4><p class="d">Any change to the rules is drafted, published for members to read, then put to a member vote. The draft always comes before the ballot, so nobody votes blind.</p></div>
+      <div class="card reveal"><span class="n">Rule 03</span><h4>Methods versioned in public</h4><p class="d">The chart method, the mark fields and the split rules live on GitHub (a public website that keeps every past version of a document and shows exactly what changed, and when). Anyone can read the current rules and every rule that came before them.</p></div>
+      <div class="card reveal"><span class="n">Rule 04</span><h4>Contested decisions</h4><p class="d">Where a decision is disputed, the evidence considered and the outcome reached are both published. The reasoning travels with the result.</p></div>
+    </div>
+    <p style="margin-top:1.8rem">When it incorporates, the ecosystem will run on two legal shapes, one for each side of the machine. <span class="when forming">taking shape</span></p>
+    <div class="grid two">
+      <div class="card regal reveal"><h4>The standards and chart side</h4><p class="d">A company limited by guarantee: the usual legal form for national member bodies. It will carry the mark, the chart, the awards, the rights engine and the two tables.</p></div>
+      <div class="card regal reveal"><h4>The money-sharing side</h4><p class="d">A co-operative: a business owned by the members it pays, where the surplus flows back to them rather than to outside shareholders. It will carry the pool and the shared channels.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap narrow" style="margin-left:auto">
+    <p class="eyebrow">The fleet</p>
+    <h2>One map, many vessels.</h2>
+    <p>Each layer will grow into its own site and tool over time: the chart gets its voting floor, the terms table gets its comparison engine, the rights engine gets its question box. This site is the map they all link back to, so a person can always see the whole machine from any one part of it. <span class="when forming">taking shape</span></p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <p class="eyebrow">Choose your door</p>
+    <h2>Now walk it from your side.</h2>
+    <p class="narrow" style="margin-left:0">The map shows the machine. The paths show what it does for you, one step at a time.</p>
+    <div class="cta-row">
+      <a class="cta" href="artist.html">I make music</a>
+      <a class="cta ghost" href="listener.html">I listen</a>
+      <a class="cta ghost" href="venue.html">I run a stage</a>
+      <a class="cta ghost" href="allies.html">I build things</a>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="assets/site-nav.js" defer></script>
+<script src="assets/motion.js" defer></script>
+</body>
+</html>

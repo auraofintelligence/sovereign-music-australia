@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sovereign-music",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4210", "--directory", "C:\\Users\\sbt41\\githublocal\\sovereign-music-australia"],
+      "port": 4210
+    }
+  ]
+}
