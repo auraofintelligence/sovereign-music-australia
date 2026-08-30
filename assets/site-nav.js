@@ -19,6 +19,7 @@
       { href: "rights.html", label: "rights" },
       { href: "bargain.html", label: "bargain" },
       { href: "terms.html", label: "terms" },
+      { href: "money.html", label: "money" },
       { href: "pool.html", label: "pool" },
     ],
   };
